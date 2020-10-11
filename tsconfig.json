@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "preserveConstEnums": true,
     "noImplicitThis": true,
     "removeComments": false,
-    "declaration": true,
     "target": "esnext",
     "outDir": "dist",
     "alwaysStrict": true,
@@ -14,7 +13,8 @@
     "noFallthroughCasesInSwitch": true,
     "strictPropertyInitialization": true,
     "strictNullChecks": true,
-    "declarationDir": "dist/types"
+    "declaration": true,
+    "declarationDir": "dist/types",
   },
   "include": ["src/**/*.ts","src/*.ts"]
 }
